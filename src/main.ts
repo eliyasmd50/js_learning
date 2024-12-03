@@ -1,107 +1,102 @@
-let stringArr = ['hi', 'i am', 'Cristianooo'];
-let address = ['No', 17, 'vallal pari street', 'MGR nagar', 'chennai', 78];
-let mixedData = ['Eliyas', 26, true];
+//Type Aliases
+type stringOrNumber = string | number;
 
-stringArr[0] = '40';
-stringArr.push('42');
+type stringOrNumberArray = (string | number )[];
 
-address[0] = 'Number';
-address.unshift(600078);
-
-mixedData = address
-
-//Array declaration
-let test = [];
-let brand:string[] = [];
-
-brand.push("Benz");
-console.log(brand);
-
-//tuple is like assigning the value in a strict mode 
-let myBrand: [string, number, boolean] = ['Eliyas', 26, true];
-let myBus = ['Mohamed', 1998, true];
-
-myBus = myBrand;//we cant assign the tuple element which is defined in the strict characters
-
-myBrand[1] = 26;// we can't assign the variable to a tuple which has only three values undefined 
-
-//objects
-let myObj: object;
-myObj = [];
-console.log(myObj);
-console.log(typeof myObj);
-
-myObj = {}
-myObj = brand;//we can assign an array to an Object type since array is also an object in javascript
-
-const exampleObj = {
-    prop1: "Eliyas",
-    prop2: true
-}
-
-exampleObj.prop2 = false
-
-//custom type declaration like a predefined properties we can't redefine these peroperties
-// type PersonalInfo = {
-//     name: string,
-//     age: number,
-//     isMarried?: boolean, // it can be optional either we can give this prop or not
-//     DOB: (number | string)[]
-// }
-
-
-// this is also one of the custom type declaration which is work same as the type decalaration 
-interface PersonalInfo  {
+type PersonalInfo = {
     name?: string,
     age: number,
-    isMarried: boolean, // it can be optional either we can give this prop or not
-    DOB: (number | string)[]
+    isMarried: boolean,
+    DOB: stringOrNumberArray// using here string or number array aliasintead of defining the exact type
+}
+
+type userId = stringOrNumber;// using the type alias here
+
+//Literal Types
+let userName: 'Ross' | 'Chandler' | 'Joey';
+userName = 'Chandler';
+
+console.log(userName);
+
+//functsion with return value and type
+const add = (a: number, b: number): number => {
+    return a + b;
 }
 
 
-let person1: PersonalInfo = {
-    name: "Eliyas",
-    age: 26,
-    isMarried: false,
-    DOB: [1, "october",1950]
+//function that does not have a return type which is called a side effect it has a void return type
+const logMessage = (message: any): void => {
+    console.log(message);
 }
 
-let person2: PersonalInfo = {
-    name: "Eju",
-    age: 26,
-    isMarried: false,
-    DOB: [17, "december",1378]
+logMessage(`Hello!`);
+logMessage(add(2, 3));
+
+const subtract = function (c:number, d: number): number {
+    return c - d;
 }
 
-person1 = person2 // we can assign the value if it is not the same type declaration but should contain the same props
+logMessage(subtract(5, 3));
 
 
-let person3: PersonalInfo = {
-    age: 26,
-    isMarried: true,
-    DOB: [17, "december",1378]
+type mathFunction = (a: number, b: number) => number;// using type aliases here for the definition
+
+// we can use type aliases by using the interface method type definition too it will work the same
+// interface mathFunction {
+//     (a: number, b: number): number
+// }
+
+const multiply: mathFunction = function  (a,b) {
+    return a * b;
 }
 
-person1 = person3;// like this we can assign without a prop if we use ? mark
+logMessage(multiply(4, 5));
 
-//using custom type declartion in a function 
-const greetPerson = (personInfo: PersonalInfo) => {
-    if(personInfo.name) {
-        return `Hello ${personInfo.name.toUpperCase()}!`;
+//optional paramaeters Note: it needs to come at the l;ast opf the paramaetres 
+const addAll = function (a: number, b: number, c?: number): number {
+    if (typeof c !== 'undefined') {
+        return a + b+ c;
     }
-    return "Hello!"
+    return a + b;
 }
 
-console.log(greetPerson(person2));// passing the object which has the same type declaration
-
-//enum is not just the type level addition it is adding a fetuse in the typescript
-enum Grade {
-    U = 11,// if we are setting a value of the first element it will enumurate based on the value
-    A,
-    B = 21,
-    C,
-    D,
-    E
+//default parameters  Note: it wll not work for the type Aliases defenition
+const sumAll = function (a: number = 10, b: number, c: number = 2) : number {
+    return a + b + c;
 }
 
-console.log(Grade.E);
+logMessage(sumAll(2, 3, 2));
+logMessage(sumAll(undefined, 3)); // to decalre 10 value explicitly as a default value 
+logMessage(addAll(2, 3));
+logMessage(addAll(2, 3, 2));
+
+const total = (a:number, ...nums: number[]): number => {
+    return a + nums.reduce((prev, curr) => prev + curr);
+}
+
+logMessage(total(10,2, 3));
+
+//never type
+const errMsg = (errMsg: string) => {
+    throw new Error(errMsg);
+}
+
+const infinite = () => {
+    let i: number = 0;
+    while(true) {
+        i++
+        if(i > 100) break;
+    }
+}
+
+// custom type Guard
+const isNumber = (value: any): boolean => {
+    return typeof value === "number" ? true : false;
+}
+
+//never function usage
+const numberOrString = (value: number | string): string => {
+    if (typeof value === 'string') return 'string';
+    if (isNumber(value)) return 'number';
+    return errMsg('this should not happen');
+}
