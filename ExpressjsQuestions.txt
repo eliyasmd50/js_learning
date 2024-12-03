@@ -1,0 +1,70 @@
+Beginner-Level Questions
+What is Express.js, and why is it used?
+What are the main features of Express.js?
+What is middleware in Express.js, and how does it work?
+How do you set up a simple Express.js server?
+What is the purpose of the app.use() method in Express.js?
+How do you handle different HTTP methods (GET, POST, PUT, DELETE) in Express.js?
+What is the difference between app.get() and app.post()?
+How do you define route parameters in Express.js?
+Example: /users/:id
+What is the role of the req and res objects in Express.js?
+How do you serve static files in Express.js?
+
+Intermediate-Level Questions
+What is the difference between middleware and routes in Express.js?
+How do you implement error handling in Express.js?
+What is the next() function in middleware, and how is it used?
+How do you handle JSON and URL-encoded data in Express.js?
+Example: Using express.json() and express.urlencoded()
+What is the purpose of routers in Express.js?
+Example: const router = express.Router();
+How do you handle file uploads in Express.js?
+Example: Using the multer library.
+What is the difference between global and route-specific middleware in Express.js?
+How do you implement authentication in an Express.js application?
+Example: Using JWT, OAuth, or sessions.
+What is the purpose of the res.locals object in Express.js?
+How do you enable CORS in an Express.js application?
+
+Advanced-Level Questions
+How do you optimize an Express.js application for performance?
+What is the difference between res.send() and res.json() in Express.js?
+What are the best practices for structuring an Express.js application?
+How do you handle custom headers in Express.js?
+What is the difference between app-level middleware and router-level middleware?
+How do you implement rate limiting in an Express.js application?
+Example: Using the express-rate-limit library.
+What is the purpose of the app.listen() method?
+How do you secure an Express.js application?
+Examples: Using HTTPS, Helmet, sanitizing inputs.
+How do you implement real-time functionality in an Express.js application?
+Example: Integrating with WebSockets or libraries like Socket.io.
+What are some strategies for error logging in Express.js?
+
+Practical/Scenario-Based Questions
+How would you create a REST API with Express.js?
+Example: Routes for CRUD operations.
+How do you handle 404 errors in Express.js?
+How would you implement user authentication using sessions or JWT in Express.js?
+How do you validate incoming request data in an Express.js application?
+Example: Using libraries like Joi or express-validator.
+How do you handle multiple versions of an API in Express.js?
+How do you set up a database connection in an Express.js app?
+Example: Using MongoDB with Mongoose or MySQL with Sequelize.
+How would you implement pagination in an Express.js API?
+How do you implement file downloads in Express.js?
+How would you use middleware to log all incoming requests to a file?
+How do you create a custom error handler in Express.js?
+
+Common Coding Tasks
+Set up a basic Express.js server with one route.
+Create an Express.js route that handles URL parameters and query parameters.
+Write middleware to log request details (method, URL, and timestamp).
+Create an Express.js app with route-specific middleware.
+Implement file uploads using multer in an Express.js app.
+Build a RESTful API with Express.js for a "users" resource.
+Write a custom error-handling middleware in Express.js.
+Set up CORS for a specific domain in an Express.js application.
+Create a paginated API endpoint in Express.js for a dataset.
+Write an Express.js app that serves both static files and API endpoints.

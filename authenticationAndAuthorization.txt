@@ -1,0 +1,62 @@
+General Authentication and Authorization Questions
+What is the difference between authentication and authorization?
+What are some common methods of authentication in web applications?
+Explain the differences between session-based and token-based authentication.
+What are the pros and cons of using single sign-on (SSO) systems?
+How would you design an application to support role-based access control (RBAC)?
+
+OAuth-Specific Questions
+What is OAuth, and how does it work?
+Explain the OAuth 2.0 authorization flow.
+What are the roles in the OAuth architecture (e.g., resource owner, client, authorization server, and resource server)?
+What is the difference between the authorization code flow and the implicit flow in OAuth 2.0?
+When would you use the client credentials flow in OAuth?
+What is the purpose of refresh tokens in OAuth 2.0?
+What are the potential security risks associated with OAuth implementations, and how do you mitigate them?
+What is the difference between OAuth 1.0 and OAuth 2.0?
+How does OpenID Connect extend OAuth 2.0, and what is its purpose?
+What are the key differences between PKCE (Proof Key for Code Exchange) and traditional OAuth 2.0 flows?
+
+Web Identity Technologies
+What is the purpose of JWT (JSON Web Tokens) in web identity systems?
+What are the components of a JWT, and how is it structured?
+How do you ensure the security of a JWT?
+Examples: Using signatures, expiration times, and secure storage.
+What is SAML, and how does it compare to OAuth?
+What is the role of federated identity in modern authentication systems?
+What are common web identity providers, and how do they integrate with applications?
+Explain the difference between bearer tokens and opaque tokens.
+What is the purpose of scopes in OAuth, and how are they used?
+How would you implement passwordless authentication using web identity technologies?
+What is the role of a trust framework in identity systems?
+
+Security and Privacy Standards
+What are best practices for storing sensitive authentication tokens (e.g., access tokens, refresh tokens)?
+How would you protect against common authentication vulnerabilities like brute force or credential stuffing attacks?
+What is CSRF, and how does OAuth mitigate it?
+What is the purpose of HTTPS in securing web identity systems?
+How do you secure OAuth access tokens in a front-end application?
+What is the importance of implementing logout functionality securely in a web application?
+How do you handle user consent in OAuth flows to comply with privacy regulations (e.g., GDPR)?
+What is the role of Content Security Policy (CSP) in protecting web applications?
+How would you detect and respond to token misuse in an OAuth-based system?
+How do you manage the lifecycle of tokens in long-lived sessions?
+
+Implementation Scenarios
+How would you integrate Google, Facebook, or another third-party provider for user authentication using OAuth?
+Describe the steps to secure an API using OAuth 2.0.
+How would you implement multi-factor authentication (MFA) in an OAuth-based system?
+Explain how you would configure an application to use OpenID Connect for login.
+What are the challenges in implementing OAuth for mobile vs. web applications?
+How would you build an OAuth-based system that supports both user-to-service and service-to-service authentication?
+How would you handle expired tokens in a web application?
+What strategies would you use to log and monitor OAuth activities for compliance?
+How do you handle user session management in a stateless OAuth system?
+What is your approach to testing the security of an OAuth implementation?
+
+Behavioral Questions
+Can you describe a project where you implemented OAuth or other identity management solutions?
+What challenges have you faced while implementing secure authentication systems, and how did you resolve them?
+How do you stay updated with the latest web identity and security standards?
+How would you explain OAuth to a non-technical stakeholder?
+What trade-offs have you made when designing secure authentication and authorization systems?

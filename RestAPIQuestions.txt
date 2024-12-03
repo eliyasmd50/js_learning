@@ -1,0 +1,55 @@
+Beginner-Level Questions
+What is a REST API, and why is it used?
+What does REST stand for, and what are its key principles?
+What is the difference between REST and SOAP?
+What are HTTP methods, and how are they used in REST APIs?
+Example: GET, POST, PUT, DELETE
+What is the difference between PUT and PATCH?
+What are the commonly used HTTP status codes in REST APIs?
+Example: 200 OK, 201 Created, 404 Not Found, 500 Internal Server Error
+What is the purpose of query parameters and path parameters in REST APIs?
+Example: /users/{id} vs. /users?role=admin
+What is a resource in the context of REST?
+What is the purpose of headers in HTTP requests and responses?
+What is a JSON payload, and why is it commonly used in REST APIs?
+
+Intermediate-Level Questions
+What is the difference between synchronous and asynchronous communication in REST APIs?
+What is the role of Content-Type and Accept headers in REST API communication?
+What are CORS (Cross-Origin Resource Sharing), and why is it important for REST APIs?
+How do you handle authentication in REST APIs?
+Examples: Basic Auth, Token-Based Auth, OAuth
+What is rate limiting, and why is it important for REST APIs?
+What are the best practices for versioning REST APIs?
+How would you handle pagination in a REST API?
+What are idempotent operations, and why is this concept important in REST APIs?
+What is the purpose of HATEOAS (Hypermedia as the Engine of Application State)?
+How can you secure REST APIs?
+Examples: HTTPS, API keys, JWT, input validation
+
+Advanced-Level Questions
+What is the difference between RESTful APIs and GraphQL?
+How would you handle long-running tasks in a REST API?
+What are Webhooks, and how do they differ from traditional REST API calls?
+What is the difference between monolithic and microservices-based architectures in the context of REST APIs?
+What are some strategies for caching in REST APIs?
+Examples: HTTP caching, ETags, Cache-Control headers
+How would you design a REST API to support multiple formats (e.g., JSON, XML)?
+Explain the concept of API gateways and their role in REST APIs.
+What are the trade-offs of using REST APIs versus other API architectures?
+How would you implement error handling in a REST API?
+What is the purpose of Swagger/OpenAPI in REST API development?
+
+Practical/Scenario-Based Questions
+How would you design a REST API for an e-commerce platform?
+Examples: /products, /orders, /users
+Write a sample endpoint for creating, retrieving, updating, and deleting a resource (CRUD operations).
+How would you implement file uploads in a REST API?
+Design an endpoint for a search feature, including filters and sorting.
+How would you handle version deprecation in a REST API?
+What is your approach to handling unexpected server errors in a REST API?
+How would you document a REST API effectively?
+What is your strategy for testing REST APIs?
+Examples: Unit tests, integration tests, Postman, Swagger
+How would you optimize a REST API for high performance?
+How do you ensure that your REST API is scalable?

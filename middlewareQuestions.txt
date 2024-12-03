@@ -1,0 +1,62 @@
+Beginner-Level Questions
+What is middleware in Node.js?
+What are the different types of middleware in Node.js?
+How does middleware work in an Express.js application?
+What is the next() function, and how is it used in middleware?
+What is the difference between application-level and router-level middleware in Express.js?
+How can you use built-in middleware in Express.js?
+Examples: express.json(), express.urlencoded(), express.static()
+What is error-handling middleware in Express.js?
+Example: (err, req, res, next) signature
+How do you use third-party middleware in an Express.js app?
+Example: Using body-parser, cors, or helmet.
+How would you create custom middleware in Express.js?
+What are some common use cases for middleware in a Node.js application?
+
+Intermediate-Level Questions
+What is the order of execution for middleware in Express.js?
+How does middleware chaining work in Express.js?
+What is the difference between synchronous and asynchronous middleware?
+How do you handle errors in middleware?
+What is CORS middleware, and why is it important?
+How can middleware be used for authentication and authorization in a Node.js app?
+Example: Using JWT or session-based middleware.
+What is the role of res.locals in middleware?
+How do you write middleware to log incoming requests?
+How can you conditionally apply middleware to specific routes?
+Example: Using app.use('/api', middlewareFunction)
+What is the difference between global middleware and route-specific middleware?
+
+Advanced-Level Questions
+How do you implement rate-limiting middleware in a Node.js application?
+What are middleware pipelines, and how do they affect request handling?
+How do you ensure middleware doesn’t unintentionally block the request-response cycle?
+What is middleware composition, and when would you use it?
+How do you use middleware to handle large file uploads efficiently?
+Example: Using multer or busboy.
+What are some strategies to optimize middleware performance?
+How do you write middleware to handle and sanitize user inputs?
+How do you pass data between middleware functions?
+What are some potential pitfalls of using middleware in a Node.js app?
+How do you create reusable middleware for logging, monitoring, or analytics?
+
+Practical/Scenario-Based Questions
+Write a middleware function that logs the method and URL of each incoming request.
+Create a middleware function to check if a user is authenticated.
+Implement error-handling middleware that sends a JSON response with the error details.
+Write a middleware function that limits requests to a specific endpoint to 100 per hour.
+Design a middleware function that validates incoming JSON payloads against a schema.
+Example: Using libraries like Joi or Ajv.
+Create a middleware function that adds a custom header to all responses.
+Write a middleware function to compress outgoing responses.
+Example: Using compression library.
+How would you apply middleware to a specific group of routes in an Express.js app?
+Design middleware to log the time taken to process each request.
+Create middleware that handles request body parsing for JSON and URL-encoded data.
+
+Common Mistakes and Debugging Questions
+What happens if you forget to call next() in middleware?
+How do you debug middleware-related issues in an Express.js app?
+What can cause a "Cannot set headers after they are sent" error in middleware?
+How do you handle cases where middleware causes an infinite loop?
+What are the best practices for organizing middleware in a large Node.js application?

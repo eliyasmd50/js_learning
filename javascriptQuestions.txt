@@ -1,0 +1,59 @@
+Beginner-Level Questions
+What is JavaScript, and how is it different from Java?
+What are the different data types in JavaScript?
+Explain the difference between var, let, and const.
+What is the difference between == and === in JavaScript?
+What is the purpose of the typeof operator? Provide examples.
+Explain hoisting in JavaScript with examples.
+What are JavaScript functions, and how do you define one?
+What is the difference between function declarations and function expressions?
+What are arrow functions, and how do they differ from regular functions?
+What is a closure in JavaScript? Provide an example.
+
+Intermediate-Level Questions
+What is the event loop in JavaScript, and how does it work?
+Explain the difference between synchronous and asynchronous code in JavaScript.
+What are promises, and how are they used?
+What is the difference between null and undefined?
+What are higher-order functions in JavaScript? Provide examples.
+What is the difference between call, apply, and bind methods?
+What is the concept of prototypal inheritance in JavaScript?
+How does the this keyword work in JavaScript?
+What is the difference between mutable and immutable objects in JavaScript?
+Explain destructuring in JavaScript with examples.
+
+Advanced-Level Questions
+What are JavaScript modules, and how do import and export work?
+What is the difference between setTimeout and setInterval?
+What is debouncing and throttling in JavaScript, and how are they implemented?
+Explain the difference between deep copy and shallow copy in JavaScript.
+What are generators in JavaScript? Provide an example.
+What are weak maps and weak sets, and when would you use them?
+What are symbols in JavaScript, and how are they used?
+What is the difference between the for...of and for...in loops?
+Explain the concept of async/await in JavaScript.
+What is the role of the JavaScript engine (e.g., V8)?
+
+Practical/Scenario-Based Questions
+How would you check if a variable is an array in JavaScript?
+How do you handle errors in JavaScript?
+Write a function to deep clone an object in JavaScript.
+How would you optimize a JavaScript function for performance?
+What are some common memory leaks in JavaScript, and how can you prevent them?
+How would you remove duplicates from an array in JavaScript?
+Explain how you would implement a custom event emitter in JavaScript.
+How would you handle asynchronous operations in JavaScript without using promises?
+How would you create and use a JavaScript singleton?
+Write a polyfill for a JavaScript method, such as Array.prototype.map.
+
+Common Coding Problems
+Write a function to reverse a string in JavaScript.
+How would you flatten a nested array in JavaScript?
+Write a function to check if a string is a palindrome.
+Implement a debounce function.
+Write a function to find the maximum occurring character in a string.
+Implement a basic version of the Promise class.
+Write a function to merge two sorted arrays.
+How would you shuffle an array in JavaScript?
+Write a function to check if two arrays are equal.
+Create a function to calculate the factorial of a number.

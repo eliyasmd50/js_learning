@@ -1,0 +1,45 @@
+Beginner-Level Questions
+What is TypeScript, and how is it different from JavaScript?
+How do you define a variable in TypeScript?
+Example: let num: number = 10;
+What are the benefits of using TypeScript?
+What is the role of a .tsconfig file?
+How do you declare types for functions in TypeScript?
+Example: function add(a: number, b: number): number;
+What is the difference between any, unknown, and never types?
+Explain TypeScript enums. Provide an example.
+What are type annotations, and how are they used in TypeScript?
+What is type inference in TypeScript?
+Can you give an example of how to use union types in TypeScript?
+
+
+Intermediate-Level Questions
+What is the difference between an interface and a type in TypeScript?
+How do you implement inheritance using interfaces?
+What are generics in TypeScript, and why are they useful? Provide an example.
+How does TypeScript handle modules?
+Explain the difference between readonly and const.
+What are mapped types in TypeScript? Give an example.
+How can you create a tuple type in TypeScript, and why would you use it?
+What is type aliasing, and how is it different from interfaces?
+How do you handle optional properties in TypeScript?
+What is type narrowing, and how does it work?
+
+Advanced-Level Questions
+What is the keyof operator, and how is it used?
+Explain the difference between Partial and Required utility types in TypeScript.
+What is the purpose of the never type?
+How do you ensure type safety for third-party libraries that don't have TypeScript definitions?
+What is a discriminated union, and how does it help in type safety?
+Explain conditional types in TypeScript with an example.
+How do you work with decorators in TypeScript?
+What are module augmentation and declaration merging in TypeScript?
+How does TypeScript handle async/await with Promises?
+What is the purpose of Extract and Exclude utility types? Provide examples.
+
+Practical/Scenario-Based Questions
+How would you define a type-safe API response interface in TypeScript?
+Given a function with a dynamic number of arguments, how would you type it in TypeScript?
+How would you refactor a large JavaScript codebase to TypeScript? What are the challenges?
+Write a utility type that makes all properties of a type optional except one.
+How would you type-check a React component's props in a TypeScript project?

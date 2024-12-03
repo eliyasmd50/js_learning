@@ -1,0 +1,47 @@
+Beginner-Level Questions
+What is React, and why is it used?
+What are the major features of React?
+What is JSX, and how does it work?
+What are components in React? Explain functional and class components.
+What is the virtual DOM, and how does React use it?
+What is the difference between props and state?
+How does React handle events? How is it different from handling DOM events?
+What is the purpose of key props in React?
+What is the create-react-app utility?
+What are React fragments, and why are they useful?
+
+Intermediate-Level Questions
+What are hooks in React? Name some commonly used hooks.
+What is the useState hook, and how does it work?
+Explain the useEffect hook and its use cases.
+What is the difference between controlled and uncontrolled components?
+What is Context API in React, and when should you use it?
+How do you handle forms in React?
+What are higher-order components (HOCs), and how are they used?
+What is the difference between React.memo and useMemo?
+What is prop drilling, and how can it be avoided?
+What are portals in React? How and why are they used?
+
+Advanced-Level Questions
+What is the reconciliation process in React?
+What are React Suspense and React.lazy? How do they work?
+What are error boundaries in React? Provide an example.
+How does React optimize performance? Mention techniques like memoization and code-splitting.
+What are React server components?
+What is the difference between React's strict mode and normal mode?
+What are custom hooks, and how would you create one?
+What is the difference between useReducer and useState? When should you use which?
+What are forward refs in React? Provide an example.
+How does React handle hydration in server-side rendering (SSR)?
+
+Practical/Scenario-Based Questions
+How would you manage global state in a React application?
+How do you optimize a React app to prevent unnecessary re-renders?
+How would you implement lazy loading for routes in React?
+What are the steps to migrate a class-based component to a functional component with hooks?
+How would you handle a large form with complex validations in React?
+What happens if you update the state directly instead of using setState or useState?
+How would you implement dark mode in a React application?
+How would you test a React component?
+What are the challenges of integrating third-party libraries with React?
+How would you debug performance issues in a React application?

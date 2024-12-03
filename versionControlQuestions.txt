@@ -1,0 +1,63 @@
+General Source Control and Git Concepts
+What is version control, and why is it important in software development?
+What are the differences between centralized and distributed version control systems?
+Explain the basic workflow of using Git.
+What is the difference between git pull and git fetch?
+What is the purpose of branching in Git?
+
+Git Commands and Use Cases
+Explain the difference between git merge and git rebase. When would you use each?
+What is the purpose of the git stash command, and how do you use it?
+What does git cherry-pick do, and when would you use it?
+How do you resolve merge conflicts in Git?
+Explain the difference between git reset, git revert, and git checkout.
+What is the purpose of git tag, and how is it different from branches?
+How would you undo the last commit while keeping the changes in your working directory?
+Answer: git reset --soft HEAD~1.
+What does git blame do, and when is it useful?
+How do you remove a file from Git's history while keeping it in the working directory?
+What is the difference between git clone and git fork?
+
+Collaboration and Workflow
+What is the Gitflow workflow, and how does it differ from trunk-based development?
+How do you use pull requests (PRs) or merge requests (MRs) to manage code reviews?
+How do you ensure high code quality in a collaborative team environment using Git?
+Examples: Code reviews, pre-commit hooks, linting.
+How do you handle large teams working on the same codebase using Git?
+What are some common Git collaboration challenges, and how do you resolve them?
+How do you track changes made by other team members in a shared repository?
+What tools or platforms have you used for Git repository hosting and team collaboration (e.g., GitHub, GitLab, Bitbucket)?
+
+Advanced Git and Best Practices
+What is the difference between shallow cloning and full cloning in Git?
+How do you optimize Git for handling large repositories?
+What are Git submodules, and how do you use them?
+How would you set up and enforce branch protection rules in GitHub or GitLab?
+What is the purpose of a .gitignore file, and how do you use it?
+What is a rebased branch, and how does it affect the commit history?
+Explain how to squash commits and why it is useful.
+How do you manage repository access and permissions in a team?
+What is the purpose of the .gitattributes file, and how is it used?
+How do you ensure the security of a Git repository?
+Example: Enforcing HTTPS, SSH keys, and avoiding sensitive data in commits.
+
+Scenario-Based Questions
+How would you handle a situation where a teammate accidentally commits sensitive information (e.g., API keys) to a Git repository?
+Tools: git filter-repo or git rebase to remove sensitive data.
+You’ve accidentally pushed changes to the wrong branch. How would you fix this?
+How would you resolve a situation where two team members make conflicting changes to the same file?
+What steps would you take if the repository becomes corrupted or has inconsistent commit histories?
+How do you ensure a consistent coding standard across the team using Git?
+Example: Pre-commit hooks with husky or lint-staged.
+How do you deal with a repository that has become too large due to unnecessary files or commits?
+Describe the process of reverting a production deployment using Git.
+How would you set up a Git repository for a new project in a way that encourages best practices?
+How do you track bugs or issues in a Git-integrated environment?
+What would you do if your local branch is out of sync with the remote repository?
+
+Behavioral Questions
+Can you describe a time when you successfully resolved a complex merge conflict?
+Have you implemented any Git workflows or practices in your previous teams? What was the impact?
+How do you encourage your team to follow best practices when working with Git?
+What steps do you take to mentor a new team member unfamiliar with Git?
+Can you share an experience where a mistake in Git led to an issue, and how did you resolve it?

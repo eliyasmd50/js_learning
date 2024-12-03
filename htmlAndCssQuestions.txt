@@ -1,0 +1,95 @@
+HTML Interview Questions
+Beginner-Level Questions
+What is HTML, and why is it used?
+What are the differences between HTML and XHTML?
+What are HTML tags? Give examples of block-level and inline elements.
+Examples: <div>, <span>, <p>, <a>
+What is the difference between semantic and non-semantic elements?
+Examples: <article> vs. <div>
+What are the differences between <section> and <div>?
+What is the purpose of the <meta> tag?
+How is the <link> tag used?
+Example: Linking CSS or a favicon.
+What is the purpose of the <doctype> declaration?
+What are attributes in HTML? Provide examples.
+What is the difference between <input type="checkbox"> and <input type="radio">?
+
+Intermediate-Level Questions
+What is the difference between HTML5 and earlier versions of HTML?
+What are the new semantic elements introduced in HTML5?
+How do you include audio and video in HTML5?
+Tags: <audio>, <video>
+What is the difference between <canvas> and <svg> in HTML5?
+What are data-* attributes in HTML?
+How do you create a table in HTML? What are the <thead>, <tbody>, and <tfoot> tags?
+What is the difference between id and class attributes?
+What are ARIA roles, and why are they important for accessibility?
+How can you optimize an HTML page for SEO?
+What is the difference between <script> placed in <head> vs. before </body>?
+
+Advanced-Level Questions
+How does the browser render HTML pages?
+What is the purpose of the <template> tag in HTML5?
+What is the shadow DOM, and how does it relate to web components?
+What is lazy loading, and how is it implemented for images and iframes?
+How do you ensure cross-browser compatibility in your HTML code?
+What are progressive web apps (PWAs), and how do HTML tags support them?
+How does the <picture> element work for responsive images?
+What are custom elements, and how are they created in HTML5?
+What is the difference between defer and async attributes in the <script> tag?
+What is the purpose of a <fieldset> tag?
+
+CSS Interview Questions
+Beginner-Level Questions
+What is CSS, and why is it used?
+What are the different types of CSS?
+Inline, internal, external.
+What is the difference between id and class selectors in CSS?
+What are pseudo-classes in CSS? Provide examples.
+Examples: :hover, :nth-child, :focus
+What is the box model in CSS?
+How do you apply a CSS rule to a specific element?
+What is the difference between absolute, relative, fixed, and sticky positioning in CSS?
+What is the difference between em and rem units in CSS?
+What are media queries, and how are they used in responsive design?
+What is the difference between inline, block, and inline-block elements?
+
+Intermediate-Level Questions
+What are the differences between flexbox and grid in CSS?
+What is the z-index, and how does it work?
+What are pseudo-elements in CSS? Provide examples.
+Examples: ::before, ::after
+What is the difference between transition and animation in CSS?
+What is the difference between visibility: hidden; and display: none;?
+How does the float property work in CSS?
+What is a CSS preprocessor? Name some popular ones.
+Examples: SASS, LESS.
+How do you create a CSS grid layout?
+What is the difference between min-width, max-width, and width?
+What is the purpose of clip-path in CSS?
+
+Advanced-Level Questions
+What is the difference between inline, block, and stacking contexts in CSS?
+What is the difference between opacity and rgba() in CSS?
+What is the purpose of will-change in CSS?
+How does the cascade work in CSS?
+Specificity, inheritance, and the importance of rules.
+What are CSS variables, and how are they used?
+What is critical CSS, and why is it important for performance?
+What is the purpose of the object-fit property?
+What are keyframe animations, and how are they used?
+How do CSS custom properties differ from preprocessors like SASS?
+What are the differences between logical and physical properties in CSS?
+Examples: margin-inline, padding-block
+
+Practical/Scenario-Based Questions
+How would you create a responsive navigation bar using CSS?
+How would you style a button to have a hover effect with smooth transitions?
+How would you center a div both horizontally and vertically?
+How would you create a multi-column layout in CSS?
+How do you create a CSS-only tooltip?
+What strategies would you use to reduce CSS file size?
+How would you create a visually hidden but screen reader-visible element in CSS?
+How do you create a sticky header using CSS?
+How would you implement a dark mode toggle using CSS?
+How do you create a custom checkbox or radio button style using CSS?

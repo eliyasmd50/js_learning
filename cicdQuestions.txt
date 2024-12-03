@@ -1,0 +1,67 @@
+Cloud Services (AWS, Azure, GCP)
+General Cloud Knowledge
+What are the differences between AWS, Azure, and GCP in terms of services and pricing?
+What are the key components of cloud infrastructure?
+Explain the concept of Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+What is the difference between horizontal and vertical scaling in cloud architecture?
+
+AWS-Specific Questions
+Explain the core AWS services: EC2, S3, RDS, and Lambda.
+What are VPCs, and how do they work in AWS?
+How would you configure an autoscaling group in AWS?
+What are the differences between an application load balancer and a network load balancer in AWS?
+
+Azure-Specific Questions
+Explain the purpose of Azure Resource Manager (ARM) templates.
+What are Azure Functions, and how do they differ from AWS Lambda?
+How do you implement and manage Azure DevOps pipelines?
+Describe how Azure’s Blob Storage works and its different access tiers.
+
+GCP-Specific Questions
+What is Google Kubernetes Engine (GKE), and why is it used?
+How does GCP manage networking with VPCs and subnets?
+Explain Cloud Storage in GCP and its key features.
+How does GCP’s BigQuery differ from traditional relational databases?
+
+Cloud Security and Monitoring
+How do you implement identity and access management (IAM) in the cloud?
+What strategies do you use to ensure data security in the cloud?
+How do you monitor and log cloud resources to ensure uptime and performance?
+What is the shared responsibility model in cloud services?
+
+CI/CD Expertise
+General CI/CD Concepts
+What is CI/CD, and why is it important in modern software development?
+Explain the differences between continuous integration, continuous delivery, and continuous deployment.
+What tools have you used for CI/CD, and which is your favorite? Why?
+What are the primary challenges in implementing CI/CD pipelines?
+
+Pipeline Development
+Describe how you would set up a basic CI/CD pipeline for a microservices-based application.
+How do you integrate CI/CD with version control systems like Git?
+What is the role of containerization (e.g., Docker) in CI/CD pipelines?
+How do you ensure rollback mechanisms in a CI/CD pipeline?
+
+Automation and Testing
+How do you incorporate automated testing into a CI/CD pipeline?
+What are the benefits of using infrastructure-as-code (IaC) tools like Terraform in CI/CD?
+Explain how you would use a tool like Jenkins to automate a CI/CD pipeline.
+How do you handle secrets and sensitive data in CI/CD workflows?
+
+Cloud-Based CI/CD
+How would you set up a CI/CD pipeline using AWS CodePipeline or Azure DevOps?
+What are the advantages of using GCP Cloud Build over Jenkins or other CI/CD tools?
+Describe how you would deploy an application to a Kubernetes cluster using a CI/CD pipeline.
+What is the role of serverless architecture in CI/CD processes?
+
+Real-World Scenarios
+Describe a CI/CD pipeline you implemented in a recent project. What challenges did you face, and how did you overcome them?
+How would you troubleshoot a failed deployment in a CI/CD pipeline?
+How do you ensure high availability and fault tolerance in a CI/CD pipeline?
+What strategies do you use for zero-downtime deployments in a CI/CD process?
+
+Behavioral and Soft Skills
+Can you share an example of a successful cloud-based deployment strategy you designed?
+How do you collaborate with developers and operations teams to streamline CI/CD processes?
+How do you prioritize and handle competing demands in a fast-paced environment involving cloud and CI/CD tasks?
+What steps do you take to stay updated with the latest trends in cloud and CI/CD technologies?
