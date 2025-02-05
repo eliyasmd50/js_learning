@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indexed DB</title>
+    <script defer  src="./js/index.js"></script>
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+
+</head>
+<body>
+    <h1>This is an Indexed DB Console</h1>
+    <label for="indexDbSelection">DB Name</label><br>
+    <select name="indexDbSelection" id="indexDbSelection" class="indexDbSelection">
+        <option value="myIndexDB">myIndexDB</option>
+        <option value="myNewIndexDB">myNewIndexDB</option>
+    </select><br>
+    <label for="version">DB Version</label><br>
+    <input type="number" id="version" class="version"><br>
+
+    <label for="objectStore">objectStore</label><br>
+    <input type="text" id="objectStore" class="objectStore"><br>
+
+    <button class="create-button" id="button" onclick="indexDBCreation()">Create indexedDB </button>
+    <button class="create-button" id="button" onclick="indexDBCreation()">Create Obejct</button>
+    <br>
+
+<a href="./user.html" class="userPage">User Page for Object Creation</a>
+</body>
+</html>

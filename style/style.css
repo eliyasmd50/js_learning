@@ -1,0 +1,28 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.indexDbSelection {
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.version {
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.objectStore {
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.userPage {
+    margin-top: 20px;
+}
+
+.create-button {
+    margin-bottom: 20px;
+    padding: 4px;
+}
