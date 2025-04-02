@@ -1,0 +1,43 @@
+Basic Level:
+What is multithreading?
+Discuss the concept of multithreading and how it helps in improving performance by executing multiple threads concurrently.
+What is the difference between parallelism and concurrency?
+Explain the difference between the two, and how they relate to multithreading.
+What are threads and processes?
+Define threads and processes. How are threads different from processes?
+What are some basic issues that arise when using multithreading?
+Discuss common issues such as race conditions, deadlocks, and thread starvation.
+How do you create a thread in JavaScript?
+Discuss Web Workers in JavaScript for running code in parallel.
+What is a thread pool?
+Explain the concept of a thread pool and how it helps in managing multiple threads efficiently.
+
+Intermediate Level:
+What are race conditions? How do you avoid them?
+Explain race conditions and strategies to prevent them, such as mutexes or locks.
+What is a deadlock, and how do you prevent it?
+Define deadlocks and mention strategies for avoiding them, like lock ordering, timeout-based approaches, etc.
+Explain the concept of synchronization in multithreading.
+Discuss different types of synchronization, like using locks, semaphores, or critical sections.
+What are the advantages and disadvantages of multithreading?
+Discuss benefits (e.g., improved performance, responsiveness) and drawbacks (e.g., complexity, resource consumption).
+What are asynchronous operations in JavaScript? How do they differ from multithreading?
+Discuss the event loop and asynchronous programming in JavaScript, and explain how it differs from traditional multithreading models.
+How do you manage shared resources in a multithreaded environment?
+Explain techniques like locking mechanisms or atomic operations to ensure thread-safe access to shared resources.
+
+Advanced Level:
+What is the concept of a mutex? How is it used in multithreading?
+Discuss mutexes in detail, their use cases, and how they help prevent race conditions.
+Explain the concept of “thread-local storage” (TLS).
+Describe how thread-local storage allows data to be stored separately for each thread.
+What is lock contention, and how can you minimize it in multithreading?
+Discuss lock contention and strategies to reduce the performance overhead due to waiting for locks.
+What are some common strategies for managing concurrency in distributed systems?
+Discuss distributed locks, consensus algorithms (e.g., Paxos, Raft), or other distributed coordination techniques.
+What is a deadlock detector and how can it be used in a multithreaded system?
+Explain the concept of a deadlock detector and how to apply it to analyze and resolve deadlocks in systems.
+Explain the difference between "volatile" and "synchronized" in Java.
+Discuss how "volatile" works in Java and the synchronization mechanisms available for handling multithreaded access to variables.
+How do you avoid a “thread leak” in multithreading?
+Explain what thread leaks are and the best practices to avoid them (e.g., always shutting down threads properly).

@@ -1,0 +1,129 @@
+Basic Level:
+
+What is Object-Oriented Programming (OOP)?
+Define OOP and discuss its core principles: Encapsulation, Inheritance, Polymorphism, and Abstraction.
+What are objects and classes in JavaScript?
+Explain the difference between objects and classes in JavaScript. How do you create an object and a class?
+What is the difference between let, const, and var when defining an object in JavaScript?
+Discuss the scope, reassignability, and hoisting properties of let, const, and var.
+What is a constructor function in JavaScript?
+Explain how constructor functions are used to create new objects, and how they differ from class constructors.
+How do you define a method in a JavaScript object?
+
+Example:
+
+const person = {
+  name: "John",
+  greet() {
+    console.log(`Hello, ${this.name}`);
+  }
+};
+person.greet();
+
+What is the this keyword in JavaScript?
+Explain the use of this inside an object or class and how it behaves differently in various contexts (methods, global scope, etc.).
+
+Intermediate Level:
+What is inheritance in JavaScript?
+Discuss how inheritance is implemented in JavaScript using prototypes and the extends keyword in ES6 classes.
+What are the differences between prototypes and classes in JavaScript?
+Explain how JavaScript classes are syntactic sugar over prototype-based inheritance.
+What is method overriding in JavaScript?
+Explain how a subclass can override a method from its parent class.
+What is polymorphism?
+Discuss how polymorphism allows for method overriding or overloading in JavaScript, and how the same method can behave differently depending on the context.
+What is encapsulation in JavaScript?
+Explain how encapsulation is implemented in JavaScript using closures, private properties, and methods.
+How can you create a private property in JavaScript?
+
+Example:
+
+class Person {
+  #name;  // private field
+  constructor(name) {
+    this.#name = name;
+  }
+  getName() {
+    return this.#name;
+  }
+}
+const p = new Person("John");
+console.log(p.getName());  // "John"
+console.log(p.#name);  // SyntaxError: Private field '#name' must be declared in an enclosing class
+
+What is the difference between Object.create() and a class in JavaScript?
+Explain how Object.create() allows you to create an object that inherits from another object, while classes provide a blueprint for creating instances with specific methods.
+
+Advanced Level:
+What is composition over inheritance?
+Discuss the concept of using composition (i.e., building complex objects by combining simpler objects) instead of relying solely on inheritance in OOP design.
+What is a mixin in JavaScript?
+Explain the concept of mixins and how you can use them to add functionality to classes in JavaScript.
+
+Example:
+
+const canFly = {
+  fly() {
+    console.log("Flying");
+  }
+};
+class Bird {
+  constructor(name) {
+    this.name = name;
+  }
+}
+Object.assign(Bird.prototype, canFly);
+const bird = new Bird("Sparrow");
+bird.fly();  // Flying
+
+What is the super() keyword in JavaScript?
+Discuss the super() keyword used in constructor functions or methods to call the parent class’s constructor or methods.
+Explain the static keyword in JavaScript classes.
+Discuss how static methods are defined and how they are called on the class rather than on instances of the class.
+
+Example:
+
+class MathOperations {
+  static add(a, b) {
+    return a + b;
+  }
+}
+console.log(MathOperations.add(2, 3));  // 5
+
+What are getter and setter methods in JavaScript?
+Explain how to use getter and setter methods to interact with properties of an object.
+
+Example:
+
+class Person {
+  constructor(name, age) {
+    this._name = name;
+    this._age = age;
+  }
+  get name() {
+    return this._name;
+  }
+  set name(value) {
+    this._name = value;
+  }
+}
+const person = new Person("John", 30);
+console.log(person.name);  // John
+person.name = "Mike";
+console.log(person.name);  // Mike
+
+Explain the use of new keyword in JavaScript when creating an object.
+Discuss how the new keyword is used to create instances of a class and invoke the class’s constructor.
+What are abstract classes in JavaScript?
+Although JavaScript does not natively support abstract classes, explain how they can be mimicked using ES6 classes, such as by throwing errors in methods that should be implemented by subclasses.
+What is the instanceof operator in JavaScript?
+Explain how the instanceof operator is used to check if an object is an instance of a specific class or constructor function.
+
+Example:
+
+class Person {}
+const p = new Person();
+console.log(p instanceof Person);  // true
+
+What is the difference between shallow copy and deep copy in OOP?
+Discuss how shallow copy copies the reference to objects, while deep copy creates a new instance with fully copied nested objects.
