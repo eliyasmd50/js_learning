@@ -1,0 +1,35 @@
+Beginner Level:
+What is Next.js and why is it used?
+What is server-side rendering (SSR) in Next.js?
+What is static site generation (SSG) in Next.js?
+How do you create a page in Next.js?
+What is the file-based routing system in Next.js?
+What is the difference between getStaticProps and getServerSideProps?
+What are dynamic routes in Next.js? How do they work?
+How do you handle images in Next.js?
+What is the purpose of the next/head component?
+How do you pass data to a page in Next.js using getStaticProps?
+
+Intermediate Level:
+What is the Link component in Next.js, and how is it different from a regular <a> tag?
+What is getStaticPaths and when would you use it?
+What is the difference between getStaticProps and getInitialProps?
+How does Next.js handle client-side routing?
+What are API routes in Next.js, and how do you use them?
+What are the benefits of using Next.js over traditional React?
+How do you optimize performance in a Next.js application?
+What is automatic static optimization in Next.js?
+How can you configure custom routing in Next.js?
+What are the main differences between SSR and SSG in Next.js?
+
+Advanced Level:
+How does Next.js handle code splitting and what is its impact on performance?
+What are the advantages of using Incremental Static Regeneration (ISR) in Next.js?
+How does Next.js handle serverless deployment? What are the benefits?
+How do you handle authentication in a Next.js app?
+Explain the process of setting up a custom server in Next.js.
+What is the purpose of getServerSideProps and when should you use it in a dynamic application?
+How do you implement server-side caching in Next.js?
+Explain the concept of headless CMS with Next.js. How can you integrate it into a Next.js app?
+What is React Server Components and how does it work with Next.js?
+How do you handle internationalization (i18n) in Next.js?
