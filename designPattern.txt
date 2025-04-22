@@ -1,0 +1,47 @@
+💡 What is a Design Pattern?
+A Design Pattern is a proven, reusable solution to a common software design problem. It’s not code you copy-paste, but a template or blueprint you can adapt in your own code.
+
+They help:
+
+Make your code more readable
+
+Improve reusability
+
+Make systems scalable and maintainable
+
+🧩 Types of Design Patterns
+Design patterns are mainly divided into three categories:
+
+1. Creational Patterns
+These deal with object creation – how objects are instantiated.
+
+Singleton - Ensure a class has only one instance
+Factory Method - Create objects without specifying the exact class
+Abstract Factory - Provide an interface to create related objects without specifying classes
+Builder - Separate object construction from its representation
+Prototype - Clone existing objects without coupling to their classes
+
+2. Structural Patterns
+These deal with object composition – how classes and objects are combined to form larger structures.
+
+Adapter - Convert one interface to another
+Bridge - Separate abstraction from implementation
+Composite - Treat individual objects and groups uniformly
+Decorator - Add behavior dynamically to an object
+Facade - Simplify a complex subsystem with a single interface
+Flyweight - Share objects to save memory
+Proxy - Control access to another object
+
+3. Behavioral Patterns
+These deal with object interaction – how objects communicate and responsibilities are assigned.
+
+Observer - Notify dependent objects of state changes
+Strategy - Define a family of algorithms, encapsulate each one 
+Command - Encapsulate a request as an object
+Iterator - Access elements of a collection without exposing its structure
+Mediator - Simplify communication between objects
+State - Allow an object to change behavior when its state changes
+Template - Method	Define the skeleton of an algorithm and let subclasses fill in steps
+Chain of Responsibility - Pass a request along a chain of handlers
+Visitor - Separate an algorithm from the objects it operates on
+Interpreter - Interpret a grammar or expression
